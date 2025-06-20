@@ -1,4 +1,7 @@
 import streamlit as st
+
+st.title("🚀 SiteScouting – Standortanalyse für Gewerbeflächen")
+
 from pages.map_view import show_map
 from pages.ranking_view import show_ranking
 from pages.export_view import show_export
